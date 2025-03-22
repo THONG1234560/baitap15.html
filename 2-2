@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-2-2.html</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let array = ['a', '1', 'b', '2', 'c', '3', '4', 'd', '5'];
+        let count = 0;
+        for (let char of array) {
+            if (!isNaN(array[i])) { { 
+                count++;
+            }
+        }
+        console.log("Số ký tự số trong mảng:", count);
+    </script>
+</body>
+</html>
