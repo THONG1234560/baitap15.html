@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-2-1.html</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let array = ['c', 's', 'c', '2', '6', '1'];
+        let numbers = array.filter(char => !isNaN(char));
+        let words = array.filter(char => isNaN(char));
+        let result = []; 
+        for (let i = 0; i < numbers.length; i++) {
+            result.push(numbers[i]);
+        }
+        for (let i = 0; i < words.length; i++) {
+            result.push(words[i]);
+        }
+        console.log("Kết quả sau khi sắp xếp và nối:", result.join(''));
+    </script>
+</body>
+</html>
