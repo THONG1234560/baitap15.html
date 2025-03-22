@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-2-5.html</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let array = ['a', '-', 'b', '-', 'c', '-', 'd'];
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === '-') {
+                array[i] = '_'; 
+            }
+        }
+        console.log("Mảng sau khi thay thế:", array);
+    </script>
+</body>
+</html>
