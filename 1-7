@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-1-7.html</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let array = [12, 45, 23, 67, 34, 89, 3, 19, 90, 1];
+        array.sort((a, b) => b - a); // Sắp xếp theo thứ tự giảm dần
+        console.log("Mảng sau khi sắp xếp:", array);
+    </script>
+</body>
+</html>
