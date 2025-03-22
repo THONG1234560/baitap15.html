@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-1-5.html</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let string = "-12 3 -45 6 -7 8 -9";
+        let result = 0;
+        let numbers = string.split(" ");
+        for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] < 0) {
+                result++;
+            }
+        }
+        console.log("Số lượng số nguyên âm trong chuỗi:", result);
+    </script>
+</body>
+</html>
